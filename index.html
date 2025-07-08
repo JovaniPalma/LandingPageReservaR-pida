@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Reserva Rápida | Agenda sin complicaciones</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="hero">
+    <nav>
+      <h1 class="logo">Reserva Rápida</h1>
+      <a href="#contacto" class="btn-cta">Empieza Gratis</a>
+    </nav>
+    <div class="hero-content">
+      <h2>Tu agenda, sin estrés</h2>
+      <p>La forma más rápida y sencilla de que tus clientes agenden citas en línea. Ideal para uñas, barberías y lashistas.</p>
+      <a href="#caracteristicas" class="btn-primary">Descubre cómo funciona</a>
+    </div>
+  </header>
+
+  <section id="caracteristicas" class="features">
+    <h2>¿Por qué elegir Reserva Rápida?</h2>
+    <div class="feature-grid">
+      <div class="feature">
+        <h3>📅 Agenda Inteligente</h3>
+        <p>Tu disponibilidad siempre actualizada. Tus clientes reservan cuando tú lo permitas.</p>
+      </div>
+      <div class="feature">
+        <h3>📲 Notificaciones Automáticas</h3>
+        <p>Recordatorios por WhatsApp o correo para reducir cancelaciones.</p>
+      </div>
+      <div class="feature">
+        <h3>💻 Sin instalaciones</h3>
+        <p>Funciona desde cualquier dispositivo. Solo necesitas conexión a internet.</p>
+      </div>
+      <div class="feature">
+        <h3>🎨 Personalizable</h3>
+        <p>Adapta tu página de reservas con tu logo, colores y servicios.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Agrega esto dentro del <body>, después de la sección de características -->
+
+<section id="precios" class="precios">
+  <h2>Planes para cada etapa de tu negocio</h2>
+  <div class="planes">
+    <div class="plan">
+      <h3>Gratis</h3>
+      <p class="precio">$0 / mes</p>
+      <ul>
+        <li>Agenda básica</li>
+        <li>Soporte por email</li>
+      </ul>
+      <a href="#contacto" class="btn-secondary">Empezar</a>
+    </div>
+    <div class="plan">
+      <h3>Pro</h3>
+      <p class="precio">$199 MXN / mes</p>
+      <ul>
+        <li>Recordatorios automáticos por WhatsApp</li>
+        <li>Personalización de marca</li>
+        <li>Soporte prioritario</li>
+      </ul>
+      <a href="#contacto" class="btn-primary">Probar 7 días</a>
+    </div>
+  </div>
+</section>
+
+
+
+  <section class="cta-section">
+    <h2>Empieza a recibir reservas hoy mismo</h2>
+    <p>Activa tu cuenta en menos de 5 minutos. Sin tarjeta de crédito.</p>
+    <a href="#contacto" class="btn-secondary">Crear cuenta gratuita</a>
+  </section>
+
+  <section id="contacto" class="contacto">
+  <h2>¿Tienes dudas o quieres una demo?</h2>
+  <p>Déjanos tus datos y te contactamos en menos de 24 horas.</p>
+  <form id="formContacto">
+    <input type="text" id="nombre" placeholder="Tu nombre" required />
+    <input type="email" id="email" placeholder="Tu correo electrónico" required />
+    <textarea id="mensaje" placeholder="¿En qué podemos ayudarte?" required></textarea>
+    <button type="submit" class="btn-primary">Enviar mensaje</button>
+  </form>
+  <div id="mensajeEnviado" class="hidden">¡Gracias! Te contactaremos pronto.</div>
+</section>
+
+  <footer>
+    <p>&copy; 2025 Reserva Rápida. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
